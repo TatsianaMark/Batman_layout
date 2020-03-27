@@ -7,7 +7,8 @@
     <title>Бэтмен 2021 - страница о фильме</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">
@@ -31,7 +32,7 @@
             <div class="movie-info">
                 <span class="tag">Фильм</span>
                 <span class="country">США,2021 год</span>
-                <a href="#" class="play">Смотреть трейлер</a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg" class="play">Смотреть трейлер</a>
             </div>
             <a href="#" class="more">Подробней</a>
         </div>
@@ -103,6 +104,7 @@
         <!--//content -->
     </main>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 </body>
 </html>
