@@ -4,5 +4,5 @@
  
 Follow the link to the project: https://tatsianamark.github.io/Batman_layout
 
-![](img/main-bg20%spaces.png)
+
 
